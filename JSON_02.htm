@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<script type="text/javascript">
+var obj1 = {user:"raj", age: 21, state:"telangana" };
+var obj2 = {user:"ram", age: 21, state:"andhrapradesh" };
+var obj3 = {user:"Abiel", age: 19, state:"karnatake" };
+var obj4 = {u1:obj1, u2:obj2, u3:obj3};
+ 
+document.write (obj3.user +" is "+ obj3.age +" yrs old and lives in "+ obj3.state);
+obj3.state = "tamilnadu";
+document.write("<hr />");
+document.write (obj3.user +" is "+ obj3.age +" yrs old and lives in "+ obj3.state);
+document.write("<hr />");
+document.write(obj4.u2.user+" is from "+obj4.u2.state);
+
+var meats = ["beeef","pork","lamb"];
+var fruits = ["apple","plumb","grape","orange"];
+var obj5 = { arr1:meats, arr2:fruits };
+document.write("<hr />");
+//document.write(obj4.u2.user);
+document.write("<hr />");
+document.write(obj5.arr1[0] +"  with "+ obj5.arr2[1]+" for dinner");
+//document.write(obj5.arr1[1] + " " "  with "+obj5.arr2[1])+" for dinner";
+
+</script>
+</head>
+
+<body>
+</body>
+
+<HTML/>
